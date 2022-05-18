@@ -1,0 +1,24 @@
+{
+  "name": "github-query-to-notion-table",
+  "version": "1.0.0",
+  "description": "Create a report in notion based off a github query",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjhenkes/github-query-to-notion-table.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjhenkes/github-query-to-notion-table/issues"
+  },
+  "homepage": "https://github.com/mjhenkes/github-query-to-notion-table#readme",
+  "dependencies": {
+    "@notionhq/client": "^1.0.4",
+    "dotenv": "^16.0.0",
+    "octokit": "^1.7.1"
+  }
+}
